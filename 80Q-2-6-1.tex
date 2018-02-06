@@ -1,0 +1,131 @@
+%% AMS-LaTeX Created with the Wolfram Language for Students - Personal Use Only : www.wolfram.com
+
+\documentclass{article}
+\usepackage{amsmath, amssymb, graphics, setspace}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\newcounter{mathematicapage}
+\begin{document}
+
+\begin{doublespace}
+\noindent\(\pmb{X[\text{x$\_$},\text{y$\_$}] \text{:=} \{a \text{Sin}[x] \text{Cos}[y], a \text{Sin}[x] \text{Sin}[y], a \text{Cos}[x]\}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{D[X[x, y], x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{a \text{Cos}[x] \text{Cos}[y],a \text{Cos}[x] \text{Sin}[y],-a \text{Sin}[x]\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{D[X[x, y], y]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\{-a \text{Sin}[x] \text{Sin}[y],a \text{Cos}[y] \text{Sin}[x],0\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{n=(\text{Cross}[D[X[x, y], x], D[X[x, y],y]]) / (\text{Norm}[\text{Cross}[D[X[x, y], x], D[X[x, y],y]]])}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\left\{\left(a^2 \text{Cos}[y] \text{Sin}[x]^2\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right),\left(a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2
+\text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right),\left(a^2
+\text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y]
+\text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2
+\text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)\right\}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{e = n.D[X[x, y], x, x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\left(\left(a^3 \text{Cos}[y]^2 \text{Sin}[x]^3\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)\right)-\left(a^3
+\text{Sin}[x]^3 \text{Sin}[y]^2\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2
+\text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)-\left(a
+\text{Cos}[x] \left(a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right)\right)/\left(\surd \left(\text{Abs}\left[a^2
+\text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2
+\text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{f = n.D[X[x, y], x, y]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{g = n.D[X[x, y], y, y]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\left(\left(a^3 \text{Cos}[y]^2 \text{Sin}[x]^3\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)\right)-\left(a^3
+\text{Sin}[x]^3 \text{Sin}[y]^2\right)/\left(\surd \left(\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2
+\text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2\right)\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{h = D[X[x, y], x].D[X[x, y], x]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(a^2 \text{Cos}[x]^2 \text{Cos}[y]^2+a^2 \text{Sin}[x]^2+a^2 \text{Cos}[x]^2 \text{Sin}[y]^2\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{i = D[X[x, y], x].D[X[x, y], y]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(0\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{j = D[X[x, y], y].D[X[x, y], y]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(a^2 \text{Cos}[y]^2 \text{Sin}[x]^2+a^2 \text{Sin}[x]^2 \text{Sin}[y]^2\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\frac{h g - 2 f i + j e}{2(h i-j{}^{\wedge}2)}}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(-\left(\left(\left(a^2 \text{Cos}[x]^2 \text{Cos}[y]^2+a^2 \text{Sin}[x]^2+a^2 \text{Cos}[x]^2 \text{Sin}[y]^2\right) \left(-\frac{a^3
+\text{Cos}[y]^2 \text{Sin}[x]^3}{\sqrt{\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2
+\text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2}}-\frac{a^3 \text{Sin}[x]^3 \text{Sin}[y]^2}{\sqrt{\text{Abs}\left[a^2
+\text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2
+\text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2}}\right)+\left(a^2 \text{Cos}[y]^2 \text{Sin}[x]^2+a^2 \text{Sin}[x]^2 \text{Sin}[y]^2\right)
+\left(-\frac{a^3 \text{Cos}[y]^2 \text{Sin}[x]^3}{\sqrt{\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2
+\text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2}}-\frac{a^3
+\text{Sin}[x]^3 \text{Sin}[y]^2}{\sqrt{\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2 \text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2
+\text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2}}-\frac{a \text{Cos}[x] \left(a^2 \text{Cos}[x]
+\text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right)}{\sqrt{\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right]^2+\text{Abs}\left[a^2 \text{Cos}[x] \text{Cos}[y]^2 \text{Sin}[x]+a^2 \text{Cos}[x] \text{Sin}[x] \text{Sin}[y]^2\right]^2}}\right)\right)/\left(2
+\left(a^2 \text{Cos}[y]^2 \text{Sin}[x]^2+a^2 \text{Sin}[x]^2 \text{Sin}[y]^2\right)^2\right)\right)\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\pmb{\text{Simplify}[\text{$\%$29}]}\)
+\end{doublespace}
+
+\begin{doublespace}
+\noindent\(\frac{a \text{Csc}[x]}{\sqrt{\text{Abs}\left[a^2 \text{Cos}[x] \text{Sin}[x]\right]^2+\text{Abs}\left[a^2 \text{Cos}[y] \text{Sin}[x]^2\right]^2+\text{Abs}\left[a^2
+\text{Sin}[x]^2 \text{Sin}[y]\right]^2}}\)
+\end{doublespace}
+
+\end{document}
